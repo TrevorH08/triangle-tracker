@@ -8,18 +8,21 @@
   <body>
     <h1>Triangle Tracker</h1>
     <p>Find out what kind of triangle you have!</p>
-<!--Make inputs for side lengths-->
-    <label for="side1"><strong>First side:</strong></label>
-    <input id="side1" type="text">
-    <label for="side2"><strong>Second side:</strong></label>
-    <input id="side2" type="text">
-    <label for="side3"><strong>Third side:</strong></label>
-    <input id="side3" type="text">
-  
-<!--Make submit button-->
+
+    <!--Make inputs for side lengths-->
+    <form id="tracker">
+      <label for="side1"><strong>First side:</strong></label>
+      <input id="side1" type="text">
+      <label for="side2"><strong>Second side:</strong></label>
+      <input id="side2" type="text">
+      <label for="side3"><strong>Third side:</strong></label>
+      <input id="side3" type="text">
+    </form>
+
+    <!--Make submit button-->
     <button type="submit">Submit</button>
 
-<!--Make output for final answer-->
-    <h2 id="result"></h2>
+    <!--Make output for final answer-->
+    <p id="result"></p>
   </body>
 </html>
